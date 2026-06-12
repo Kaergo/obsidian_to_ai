@@ -1,0 +1,22 @@
+{
+  "name": "Obsidian AI Bridge",
+  "version": "0.1.1",
+  "releasedAt": "2026-06-13",
+  "repository": "Kaergo/obsidian_to_ai",
+  "releasePage": "https://github.com/Kaergo/obsidian_to_ai",
+  "obsidianPlugin": {
+    "version": "0.1.1",
+    "manifest": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/manifest.json",
+    "main": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/main.js",
+    "styles": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/styles.css"
+  },
+  "userscript": {
+    "version": "0.1.2",
+    "updateUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js",
+    "downloadUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js"
+  },
+  "notes": [
+    "Obsidian plugin 0.1.1: UI refresh with context chips, quick prompts, accept replacement, quote response, and save session.",
+    "Web connector 0.1.2: floating page panel with Check update and Connect buttons, plus a Tampermonkey/ScriptCat menu command for update checks."
+  ]
+}
