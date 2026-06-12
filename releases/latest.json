@@ -1,22 +1,23 @@
 {
   "name": "Obsidian AI Bridge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "releasedAt": "2026-06-13",
   "repository": "Kaergo/obsidian_to_ai",
   "releasePage": "https://github.com/Kaergo/obsidian_to_ai",
   "obsidianPlugin": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "manifest": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/manifest.json",
     "main": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/main.js",
     "styles": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/styles.css"
   },
   "userscript": {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "updateUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js",
     "downloadUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js"
   },
   "notes": [
-    "Obsidian plugin 0.1.1: UI refresh with context chips, quick prompts, accept replacement, quote response, and save session.",
-    "Web connector 0.1.4: Tampermonkey/ScriptCat menu commands are now 🔗 连接 or 🔌 断开 as one toggle, plus ✨ 更新. Connecting on another AI tab automatically disconnects the previous connected tab."
+    "Obsidian plugin 0.1.2 adds Upload MD + Send and command Upload current Markdown as .md file to Web AI.",
+    "Web connector 0.1.5 supports receiving Markdown file tasks and assigning them to an existing file input. If the AI page has not exposed a file input, it returns a clear instruction to open the upload/attachment entry first.",
+    "Tampermonkey/ScriptCat menu keeps one toggle command: 🔗 连接 or 🔌 断开, plus ✨ 更新. Connecting another AI tab disconnects the previous one."
   ]
 }
