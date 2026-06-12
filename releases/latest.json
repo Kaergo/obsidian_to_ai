@@ -11,12 +11,12 @@
     "styles": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/styles.css"
   },
   "userscript": {
-    "version": "0.1.2",
+    "version": "0.1.4",
     "updateUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js",
     "downloadUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js"
   },
   "notes": [
     "Obsidian plugin 0.1.1: UI refresh with context chips, quick prompts, accept replacement, quote response, and save session.",
-    "Web connector 0.1.2: floating page panel with Check update and Connect buttons, plus a Tampermonkey/ScriptCat menu command for update checks."
+    "Web connector 0.1.4: Tampermonkey/ScriptCat menu commands are now 🔗 连接 or 🔌 断开 as one toggle, plus ✨ 更新. Connecting on another AI tab automatically disconnects the previous connected tab."
   ]
 }
