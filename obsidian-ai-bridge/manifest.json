@@ -1,9 +1,9 @@
 {
   "id": "obsidian-ai-bridge",
   "name": "Obsidian AI Bridge",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "minAppVersion": "1.5.0",
-  "description": "Send or upload Obsidian Markdown context to web AI pages and accept AI replacements safely.",
+  "description": "Send or upload the current Obsidian Markdown note to web AI pages and accept AI replacements safely.",
   "author": "haodong",
   "isDesktopOnly": true
 }
