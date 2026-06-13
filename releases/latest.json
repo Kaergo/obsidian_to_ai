@@ -11,13 +11,13 @@
     "styles": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/styles.css"
   },
   "userscript": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "updateUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js",
     "downloadUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js"
   },
   "notes": [
     "Obsidian plugin 0.1.2 adds Upload MD + Send and command Upload current Markdown as .md file to Web AI.",
-    "Web connector 0.1.5 supports receiving Markdown file tasks and assigning them to an existing file input. If the AI page has not exposed a file input, it returns a clear instruction to open the upload/attachment entry first.",
+    "Web connector 0.1.6 adds Gemini support for https://gemini.google.com/* while keeping ChatGPT, DeepSeek, and Kimi.",
     "Tampermonkey/ScriptCat menu keeps one toggle command: 🔗 连接 or 🔌 断开, plus ✨ 更新. Connecting another AI tab disconnects the previous one."
   ]
 }
