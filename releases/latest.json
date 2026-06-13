@@ -1,11 +1,11 @@
 {
   "name": "Obsidian AI Bridge",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "releasedAt": "2026-06-13",
   "repository": "Kaergo/obsidian_to_ai",
   "releasePage": "https://github.com/Kaergo/obsidian_to_ai",
   "obsidianPlugin": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "manifest": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/manifest.json",
     "main": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/main.js",
     "styles": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/obsidian-ai-bridge/styles.css"
@@ -16,7 +16,7 @@
     "downloadUrl": "https://raw.githubusercontent.com/Kaergo/obsidian_to_ai/main/web-userscript/obsidian-ai-bridge.user.js"
   },
   "notes": [
-    "Obsidian plugin 0.1.3 captures the current Markdown note before focusing the bridge panel and falls back to the most recent Markdown leaf when the panel is focused.",
+    "Obsidian plugin 0.1.4 no longer queues tasks when the web connector is offline or stale. It clears stale connector state and shows a direct instruction to connect from the userscript menu.",
     "Web connector 0.1.7 improves text insertion for contenteditable inputs, adds a send-button fallback, and falls back to Enter when no send button is found.",
     "Gemini support remains enabled for https://gemini.google.com/*."
   ]
